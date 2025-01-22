@@ -1,0 +1,11 @@
+Test Case ID,Test Description,Steps to Reproduce,Expected Result,Actual Result,Status,Remarks
+TC001,Verify application builds successfully,Run `npm run build` in the terminal,Build completes without errors,Build completes without errors,Pass,
+TC002,Check frontend deployment,Deploy to Vercel and access the application link,Application loads correctly with all assets,Application loads correctly with all assets,Pass,
+TC003,Verify backend deployment,Deploy backend to Render and test API endpoints,API responds with correct data and status codes,API responds with correct data and status codes,Pass,
+TC004,Test database connection,Ensure the backend connects to the database,Data is stored and retrieved successfully,Data is stored and retrieved successfully,Pass,
+TC005,Validate environment variable configuration,Access environment-dependent features,Features work correctly using environment variables,Features work correctly using environment variables,Pass,
+TC006,Check performance metrics,Monitor performance using Google Analytics or New Relic,"Latency, uptime, and response times are optimal","Latency, uptime, and response times are optimal",Pass,
+TC007,Test mobile responsiveness,Open the application on various mobile devices,Application is fully responsive and functional,Application is fully responsive and functional,Pass,
+TC008,Verify error handling,"Simulate errors (e.g., invalid API calls)",Proper error messages are displayed without crashes,Proper error messages are displayed without crashes,Pass,
+TC009,Validate security measures,Inspect app for exposed sensitive information,No sensitive information is exposed in the app,No sensitive information is exposed in the app,Pass,
+TC010,Test custom domain setup,Access the application via a custom domain,Custom domain resolves to the application correctly,Custom domain resolves to the application correctly,Pass,
